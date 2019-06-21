@@ -1,0 +1,11 @@
+.navbar {
+  > a {
+    color: lightseagreen;
+    text-decoration: none;
+    margin-right: 8px;
+
+    &:visited {
+      color: lightseagreen;
+    }
+  }
+}
