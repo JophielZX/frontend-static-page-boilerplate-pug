@@ -1,8 +1,5 @@
-import '../../components/navbar/navbar.js'
+import '../../components/navbar/navbar'
 import './about.scss'
-if (process.env.NODE_ENV !== 'production') {
-  require('./about.pug')
-}
 
 const p = document.createElement('p')
 p.innerHTML = `I'm created by js.`
