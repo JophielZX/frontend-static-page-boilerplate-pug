@@ -1,0 +1,14 @@
+// 在这个示例中用来验证 autoprefixer 是否生效
+::placeholder {
+  color: gray;
+}
+
+.bg-img {
+  width: 400px;
+  height: 200px;
+  background: url(../images/400x200.png) center/100% 100% no-repeat;
+}
+
+.fs-xl {
+  font-size: x-large;
+}

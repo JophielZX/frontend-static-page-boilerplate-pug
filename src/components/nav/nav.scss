@@ -1,10 +1,10 @@
-.navbar {
+.nav {
   > a {
-    color: lightseagreen;
+    color: seagreen;
     text-decoration: none;
     margin-right: 8px;
 
-    &:visited {
+    &:hover {
       color: lightseagreen;
     }
   }
