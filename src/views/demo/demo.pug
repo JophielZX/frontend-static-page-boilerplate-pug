@@ -1,0 +1,16 @@
+extends ../../components/layout/layout.pug
+include ../../components/header/header.pug
+
+block title
+  title Demo 页
+
+block append body
+block content
+  //- 头部
+  +header('Demo 页')
+
+  //- 导航
+  include ../../components/nav/nav.pug
+
+  //- 示例代码
+  include ../../components/example/example.pug
