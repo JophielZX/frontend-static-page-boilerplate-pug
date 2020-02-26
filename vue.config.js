@@ -10,7 +10,7 @@ const getPages = () => {
       entry: `src/views/${page}/${page}.ts`, // page 的入口
       template: `src/views/${page}/${page}.pug`, // 模板来源
       filename: page === 'home' ? 'index.html' : `${page}.html`, // 在 dist/的输出
-      minify: false
+      minify: false // 不压缩 html
     }
   })
   return pages
