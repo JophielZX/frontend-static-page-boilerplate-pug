@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+const path = require('path')
 const glob = require('glob')
 
 const getPages = () => {
-  const files = glob.sync('src/views/*')
-  const pageNames = files.map(item => item.split('/')[2])
+  const pageNames = glob.sync('src/views/*').map(file => path.basename(file))
   const pages = {}
   pageNames.forEach(page => {
     pages[page] = {
